@@ -17,7 +17,7 @@ const productSchema = new mongoose.Schema({
     price: {
         type: Number,
         required: true,
-        min: [0, 'Price must be positive ya dodo!']
+        min: [0, 'Price must be positive! ya do....do!']
     },
     onSale: {
         type: Boolean,
